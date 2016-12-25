@@ -1,0 +1,68 @@
+body {
+    font-family: 'Prociono';
+    background-color: #F2F0ED;
+}
+
+.bck {
+    background-image: url("https://dl.dropboxusercontent.com/s/jzep2npldzat1px/bkd.jpg?dl=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    padding: 3em;
+}
+
+h1,h4 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    float: left;
+    margin-left: .5em;
+}
+
+a {
+    border: none;
+}
+
+button {
+    margin: 1%;
+}
+
+#random {
+    margin: 1%;
+    background-color: #AC9D9D;
+    border: 1px solid #E7E5E5;
+}
+
+#random:hover {
+    margin: 1%;
+    background-color: #E7E5E5;
+    border: 1px solid #AC9D9D;
+    color: #333;
+}
+
+#data a {
+    color: #933642;
+}
+
+#data p {
+    color: #2E393B;
+}
+
+.btn-primary {
+    background-color: #3C5458;
+    border: 1px solid #FAF0EF;
+    position: relative;
+    left: 70em;
+}
+
+.btn-primary:hover {
+    background-color: #FAF0EF;
+    border: 1px solid #3C5458;
+    color: #333;
+}
